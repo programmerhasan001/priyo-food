@@ -9,8 +9,8 @@ const NavBar = () => {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand className="fw-bold site-logo" href="/">
-                        Priyo-Food
+                    <Navbar.Brand className="fw-bold">
+                        <NavLink to="/" className="site-logo">Priyo-Food</NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

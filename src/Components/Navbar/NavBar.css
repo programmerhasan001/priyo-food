@@ -1,0 +1,8 @@
+.site-logo{
+    color: grey !important;
+}
+.navLink{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+}
